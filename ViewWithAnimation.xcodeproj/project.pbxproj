@@ -67,17 +67,57 @@
 		1F25723125E813FF00B1E26C /* ViewWithAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				1F25723225E813FF00B1E26C /* AppDelegate.swift */,
-				1F25723425E813FF00B1E26C /* SceneDelegate.swift */,
-				1F25723625E813FF00B1E26C /* AnimationViewController.swift */,
-				1F50B8FD25EA9BC400BBB1FF /* Animation.swift */,
-				1F50B90025EA9C9F00BBB1FF /* DataManager.swift */,
-				1F25723825E813FF00B1E26C /* Main.storyboard */,
-				1F25723B25E8140200B1E26C /* Assets.xcassets */,
-				1F25723D25E8140200B1E26C /* LaunchScreen.storyboard */,
-				1F25724025E8140200B1E26C /* Info.plist */,
+				1F50B90425EACB0300BBB1FF /* ViewControllers */,
+				1F50B90525EACB1C00BBB1FF /* Models */,
+				1F50B90725EACB2E00BBB1FF /* Storyboards */,
+				1F50B90825EACB5E00BBB1FF /* Resources */,
+				1F50B90A25EACB7B00BBB1FF /* SupportingFiles */,
 			);
 			path = ViewWithAnimation;
+			sourceTree = "<group>";
+		};
+		1F50B90425EACB0300BBB1FF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F25723625E813FF00B1E26C /* AnimationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1F50B90525EACB1C00BBB1FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F50B8FD25EA9BC400BBB1FF /* Animation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F50B90725EACB2E00BBB1FF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1F25723825E813FF00B1E26C /* Main.storyboard */,
+				1F25723D25E8140200B1E26C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1F50B90825EACB5E00BBB1FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F50B90025EA9C9F00BBB1FF /* DataManager.swift */,
+				1F25723B25E8140200B1E26C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1F50B90A25EACB7B00BBB1FF /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1F25723225E813FF00B1E26C /* AppDelegate.swift */,
+				1F25723425E813FF00B1E26C /* SceneDelegate.swift */,
+				1F25724025E8140200B1E26C /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 		C314C642B6FD1293BFA5D676 /* Frameworks */ = {
@@ -365,7 +405,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JKCU96H3SQ;
-				INFOPLIST_FILE = ViewWithAnimation/Info.plist;
+				INFOPLIST_FILE = ViewWithAnimation/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,7 +425,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JKCU96H3SQ;
-				INFOPLIST_FILE = ViewWithAnimation/Info.plist;
+				INFOPLIST_FILE = ViewWithAnimation/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

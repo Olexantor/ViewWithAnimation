@@ -19,7 +19,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t6Z-1z-cgI" customClass="SpringView" customModule="Spring">
                                 <rect key="frame" x="40" y="60" width="240" height="150"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spring Animation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jvm-MP-WxF">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spring Animation" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jvm-MP-WxF">
                                         <rect key="frame" x="8" y="8" width="150" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
@@ -77,6 +77,7 @@
                     </view>
                     <connections>
                         <outlet property="runSpringAnimationButton" destination="t9X-u8-WJg" id="Nf1-l5-gVY"/>
+                        <outlet property="springAnimationDescriptionLabel" destination="Jvm-MP-WxF" id="BgL-yC-8Ej"/>
                         <outlet property="springAnimationView" destination="t6Z-1z-cgI" id="hHe-Uz-sRK"/>
                     </connections>
                 </viewController>
