@@ -13,6 +13,8 @@
 		1F25723A25E813FF00B1E26C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F25723825E813FF00B1E26C /* Main.storyboard */; };
 		1F25723C25E8140200B1E26C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F25723B25E8140200B1E26C /* Assets.xcassets */; };
 		1F25723F25E8140200B1E26C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F25723D25E8140200B1E26C /* LaunchScreen.storyboard */; };
+		1F50B8FE25EA9BC400BBB1FF /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F50B8FD25EA9BC400BBB1FF /* Animation.swift */; };
+		1F50B90125EA9C9F00BBB1FF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F50B90025EA9C9F00BBB1FF /* DataManager.swift */; };
 		E6FB5A2BD92E692AAE9AFF9F /* Pods_ViewWithAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A028CADADBC813958BFB97AD /* Pods_ViewWithAnimation.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		1F25723B25E8140200B1E26C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F25723E25E8140200B1E26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F25724025E8140200B1E26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F50B8FD25EA9BC400BBB1FF /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		1F50B90025EA9C9F00BBB1FF /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		919598D741262C2C2AB8D31F /* Pods-ViewWithAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewWithAnimation.debug.xcconfig"; path = "Target Support Files/Pods-ViewWithAnimation/Pods-ViewWithAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 		A028CADADBC813958BFB97AD /* Pods_ViewWithAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewWithAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23AA21C28FD039BCDFE5DC8 /* Pods-ViewWithAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewWithAnimation.release.xcconfig"; path = "Target Support Files/Pods-ViewWithAnimation/Pods-ViewWithAnimation.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				1F25723225E813FF00B1E26C /* AppDelegate.swift */,
 				1F25723425E813FF00B1E26C /* SceneDelegate.swift */,
 				1F25723625E813FF00B1E26C /* AnimationViewController.swift */,
+				1F50B8FD25EA9BC400BBB1FF /* Animation.swift */,
+				1F50B90025EA9C9F00BBB1FF /* DataManager.swift */,
 				1F25723825E813FF00B1E26C /* Main.storyboard */,
 				1F25723B25E8140200B1E26C /* Assets.xcassets */,
 				1F25723D25E8140200B1E26C /* LaunchScreen.storyboard */,
@@ -206,7 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F25723725E813FF00B1E26C /* AnimationViewController.swift in Sources */,
+				1F50B90125EA9C9F00BBB1FF /* DataManager.swift in Sources */,
 				1F25723325E813FF00B1E26C /* AppDelegate.swift in Sources */,
+				1F50B8FE25EA9BC400BBB1FF /* Animation.swift in Sources */,
 				1F25723525E813FF00B1E26C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
