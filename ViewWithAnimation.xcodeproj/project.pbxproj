@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1F25723325E813FF00B1E26C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F25723225E813FF00B1E26C /* AppDelegate.swift */; };
 		1F25723525E813FF00B1E26C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F25723425E813FF00B1E26C /* SceneDelegate.swift */; };
-		1F25723725E813FF00B1E26C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F25723625E813FF00B1E26C /* ViewController.swift */; };
+		1F25723725E813FF00B1E26C /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F25723625E813FF00B1E26C /* AnimationViewController.swift */; };
 		1F25723A25E813FF00B1E26C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F25723825E813FF00B1E26C /* Main.storyboard */; };
 		1F25723C25E8140200B1E26C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F25723B25E8140200B1E26C /* Assets.xcassets */; };
 		1F25723F25E8140200B1E26C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F25723D25E8140200B1E26C /* LaunchScreen.storyboard */; };
@@ -20,7 +20,7 @@
 		1F25722F25E813FF00B1E26C /* ViewWithAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewWithAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F25723225E813FF00B1E26C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F25723425E813FF00B1E26C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F25723625E813FF00B1E26C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F25723625E813FF00B1E26C /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		1F25723925E813FF00B1E26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F25723B25E8140200B1E26C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F25723E25E8140200B1E26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 			children = (
 				1F25723225E813FF00B1E26C /* AppDelegate.swift */,
 				1F25723425E813FF00B1E26C /* SceneDelegate.swift */,
-				1F25723625E813FF00B1E26C /* ViewController.swift */,
+				1F25723625E813FF00B1E26C /* AnimationViewController.swift */,
 				1F25723825E813FF00B1E26C /* Main.storyboard */,
 				1F25723B25E8140200B1E26C /* Assets.xcassets */,
 				1F25723D25E8140200B1E26C /* LaunchScreen.storyboard */,
@@ -88,7 +88,6 @@
 				919598D741262C2C2AB8D31F /* Pods-ViewWithAnimation.debug.xcconfig */,
 				D23AA21C28FD039BCDFE5DC8 /* Pods-ViewWithAnimation.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -206,7 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F25723725E813FF00B1E26C /* ViewController.swift in Sources */,
+				1F25723725E813FF00B1E26C /* AnimationViewController.swift in Sources */,
 				1F25723325E813FF00B1E26C /* AppDelegate.swift in Sources */,
 				1F25723525E813FF00B1E26C /* SceneDelegate.swift in Sources */,
 			);
